@@ -135,10 +135,14 @@ body {
   overflow: hidden;
 }
 
-.box1-4 img {
+.img1 {
   height: auto;
   max-width: 1000px;
   padding-top: 30px;
+}
+
+.img2 {
+  display: none;
 }
 
 /*  box-2 */
@@ -341,8 +345,13 @@ hr {
     letter-spacing: -1px;
   }
 
-  .box1-4 img {
-    max-width: 600px;
+  .img1 {
+    display: none;
+  }
+
+  .img2 {
+    display: block;
+    width: 70%;
   }
 
   .box2-apple-logo img {
